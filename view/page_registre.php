@@ -32,29 +32,35 @@
 
                 <div class="col-md-6">
                     <label for="email" class="form-label">E-mail <i class="bi bi-envelope"></i></label>
-                    <input type="email" class="form-control" name="email" require autofocus>
+                    <input type="email" class="form-control" name="email" require>
                 </div>
 
                 <div class="col-md-4">
                     <label for="cpf" class="form-label">CPF <i class="bi bi-credit-card-2-front"></i></label>
-                    <input type="text" class="form-control" name="cpf" require autofocus>
+                    <input type="text" class="form-control" name="cpf" require>
                 </div>
 
                 <div class="col-md-4">
                     <label for="birt" class="form-label">DT. de Nascimento <i class="bi bi-calendar"></i></label>
-                    <input type="date" class="form-control" name="birt" require autofocus>
+                    <input type="date" class="form-control" name="birt" require>
                 </div>
 
                 <div class="col-md-4">
                     <label for="phone" class="form-label">Telefone <i class="bi bi-whatsapp"></i></label>
-                    <input type="text" class="form-control" name="phone" require autofocus>
+                    <input type="text" class="form-control" name="phone" require>
                 </div>
 
                 <div class="col-md-12">
                     <label for="address" class="form-label">Endereço <i class="bi bi-map"></i></label>
-                    <input type="text" class="form-control" name="address" require autofocus>
+                    <input type="text" class="form-control" name="address" require>
                 </div>
 
+                <hr class="my-4">
+
+                <div class="col-md-12 text-end">
+                    <button class="btn btn-primary btn-lg" type="submit">Cadastra</button>
+                    <a class="btn btn-success btn-lg" href="../index.php">Cancelar</a>
+                </div>
             </div>
         </form>
     </div>

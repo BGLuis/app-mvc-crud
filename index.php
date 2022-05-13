@@ -20,7 +20,7 @@
 <body>
     
     <div class="conteiner">
-        <h2 class="text-center">Lista de clientes <i class="bi bi-people-fill"></i></h2>
+        <h2 class="text-center">Lista de Usuários <i class="bi bi-people-fill"></i></h2>
 
         <h5 class="text-end">
             <a href="view/page_registre.php" class="btn btn-primary btn-xs">
@@ -59,7 +59,7 @@
                     </form>
                 </td>
                 <td>
-                    <form action="" method="post">
+                    <form action="" method="post" onclick="return confirm('Tem certeza que deseja excluir?')">
                         <button class="btn btn-danger btn-xs">
                             <i class="bi bi-trash"></i>
                         </button>
