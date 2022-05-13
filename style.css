@@ -1,0 +1,16 @@
+body{
+    margin:  20px;
+    background-color: white;
+}
+
+*{
+    font-family: 'Open Sans',sans-serif;
+}
+
+h2{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.thead{
+    background-color: #f7f7f7;
+}
